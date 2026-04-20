@@ -1,0 +1,22 @@
+{
+    "name": "mariel-proyecto/backend",
+    "description": "Backend de Mariel para Estructura Web",
+    "require": {
+        "slim/slim": "^4.15",
+        "slim/psr7": "^1.8",
+        "firebase/php-jwt": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Mariel",
+            "email": "marielmendoza050505@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+
+}
